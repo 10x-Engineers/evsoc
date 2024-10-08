@@ -1,0 +1,8 @@
+**** Efinity Programming Tool Generation Report *****
+Time: 2024-10-08 18:29
+
+Generated FPGA Soc Image output file: /home/mfaizan/ISP_Repo/Efinix/evsoc/Ti180J484_hdmi/combine.hex
+Flash Address  Length      Input Image File
+0x00000000     0x001f69ab  /home/mfaizan/ISP_Repo/Efinix/evsoc/Ti180J484_hdmi/outflow/edge_vision_soc.hex
+0x00380000     0x00000264  /home/mfaizan/ISP_Repo/Efinix/evsoc/Ti180J484_hdmi/embedded_sw/SapphireSoc/software/standalone/evsoc_ispExample_demo/build/evsoc_ispExample_demo.hex
+
