@@ -3,13 +3,13 @@
         "-o",
         "display_dma_fifo",
         "--base_path",
-        "/projects/SSE/yhlee/efx_SOLUTION/edge_vision_soc/efx_evsoc/efx_evsoc-v2.2-wip/Ti180J484_hdmi/ip",
+        "/tmp/tmpzs8uf77z/ip",
         "--vlnv",
         {
             "vendor": "efinixinc.com",
             "library": "memory",
             "name": "efx_fifo_top",
-            "version": "5.0"
+            "version": "5.1"
         }
     ],
     "conf": {
@@ -34,12 +34,12 @@
     },
     "output": {
         "external_source_source": [
-            "/projects/SSE/yhlee/efx_SOLUTION/edge_vision_soc/efx_evsoc/efx_evsoc-v2.2-wip/Ti180J484_hdmi/ip/display_dma_fifo/display_dma_fifo_define.vh",
-            "/projects/SSE/yhlee/efx_SOLUTION/edge_vision_soc/efx_evsoc/efx_evsoc-v2.2-wip/Ti180J484_hdmi/ip/display_dma_fifo/display_dma_fifo_tmpl.vhd",
-            "/projects/SSE/yhlee/efx_SOLUTION/edge_vision_soc/efx_evsoc/efx_evsoc-v2.2-wip/Ti180J484_hdmi/ip/display_dma_fifo/display_dma_fifo.v",
-            "/projects/SSE/yhlee/efx_SOLUTION/edge_vision_soc/efx_evsoc/efx_evsoc-v2.2-wip/Ti180J484_hdmi/ip/display_dma_fifo/display_dma_fifo_tmpl.v"
+            "/tmp/tmpzs8uf77z/ip/display_dma_fifo/display_dma_fifo_tmpl.vhd",
+            "/tmp/tmpzs8uf77z/ip/display_dma_fifo/display_dma_fifo_define.vh",
+            "/tmp/tmpzs8uf77z/ip/display_dma_fifo/display_dma_fifo_tmpl.v",
+            "/tmp/tmpzs8uf77z/ip/display_dma_fifo/display_dma_fifo.v"
         ]
     },
-    "sw_version": "2023.1.150",
-    "generated_date": "2023-09-10T04:40:38.107500"
+    "sw_version": "2023.2.307",
+    "generated_date": "2024-10-08T12:35:01.652101"
 }

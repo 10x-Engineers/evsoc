@@ -3,13 +3,13 @@
         "-o",
         "SapphireSoc",
         "--base_path",
-        "C:\\Users\\BrianBoo\\Desktop\\efx_evsoc-v2.2\\efx_evsoc-v2.2-release\\Ti180J484_hdmi\\ip",
+        "/tmp/tmpf_rb2mnh/ip",
         "--vlnv",
         {
             "vendor": "efinixinc.com",
             "library": "soc",
             "name": "efx_soc",
-            "version": "2.2.8"
+            "version": "3.0.0"
         }
     ],
     "conf": {
@@ -143,22 +143,28 @@
         "USER_TIMER2_PS_WIDTH": "8",
         "USER_TIMER2_INT_ID": "21",
         "USER_TIMER2_M_Addr": "32'd69632",
-        "RAM_OPT": "1'b0"
+        "RAM_OPT": "1'b0",
+        "SOC_MODE": "0",
+        "MULDIV_EXT": "1'b0",
+        "BARREL_SHIFTER": "1'b0",
+        "REDUCED_CSR": "1'b1",
+        "DDRCLK_DOMAIN": "1",
+        "DDR_OPT": "1"
     },
     "output": {
         "external_script_generator": [],
         "external_source_source": [
-            "C:\\Users\\BrianBoo\\Desktop\\efx_evsoc-v2.2\\efx_evsoc-v2.2-release\\Ti180J484_hdmi\\ip\\SapphireSoc\\SapphireSoc_tmpl.vhd",
-            "C:\\Users\\BrianBoo\\Desktop\\efx_evsoc-v2.2\\efx_evsoc-v2.2-release\\Ti180J484_hdmi\\ip\\SapphireSoc\\SapphireSoc_tmpl.v",
-            "C:\\Users\\BrianBoo\\Desktop\\efx_evsoc-v2.2\\efx_evsoc-v2.2-release\\Ti180J484_hdmi\\ip\\SapphireSoc\\SapphireSoc.v",
-            "C:\\Users\\BrianBoo\\Desktop\\efx_evsoc-v2.2\\efx_evsoc-v2.2-release\\Ti180J484_hdmi\\ip\\SapphireSoc\\SapphireSoc_define.vh"
+            "/tmp/tmpf_rb2mnh/ip/SapphireSoc/SapphireSoc_tmpl.vhd",
+            "/tmp/tmpf_rb2mnh/ip/SapphireSoc/SapphireSoc_define.vh",
+            "/tmp/tmpf_rb2mnh/ip/SapphireSoc/SapphireSoc_tmpl.v",
+            "/tmp/tmpf_rb2mnh/ip/SapphireSoc/SapphireSoc.v"
         ],
         "external_script_script": [],
         "external_script_embedded_sw": [],
         "external_testbench_modelsim": [
-            "C:\\Users\\BrianBoo\\Desktop\\efx_evsoc-v2.2\\efx_evsoc-v2.2-release\\Ti180J484_hdmi\\ip\\SapphireSoc\\Testbench\\modelsim\\SapphireSoc.v"
+            "/tmp/tmpf_rb2mnh/ip/SapphireSoc/Testbench/modelsim/SapphireSoc.v"
         ]
     },
-    "sw_version": "2023.1.150",
-    "generated_date": "2023-09-14T05:56:56.674007"
+    "sw_version": "2023.2.307",
+    "generated_date": "2024-10-08T12:36:19.008414"
 }

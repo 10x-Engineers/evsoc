@@ -3,13 +3,13 @@
         "-o",
         "dma",
         "--base_path",
-        "/projects/SSE/yhlee/efx_SOLUTION/edge_vision_soc/efx_evsoc/efx_evsoc-v2.2-wip/Ti180J484_hdmi/ip",
+        "/tmp/tmpm6sei684/ip",
         "--vlnv",
         {
             "vendor": "efinixinc.com",
             "library": "bridges_and_adaptors",
             "name": "efx_dma",
-            "version": "5.1"
+            "version": "5.2"
         }
     ],
     "conf": {
@@ -90,14 +90,14 @@
     "output": {
         "external_script_generator": [],
         "external_source_source": [
-            "/projects/SSE/yhlee/efx_SOLUTION/edge_vision_soc/efx_evsoc/efx_evsoc-v2.2-wip/Ti180J484_hdmi/ip/dma/dma_define.vh",
-            "/projects/SSE/yhlee/efx_SOLUTION/edge_vision_soc/efx_evsoc/efx_evsoc-v2.2-wip/Ti180J484_hdmi/ip/dma/dma_tmpl.vhd",
-            "/projects/SSE/yhlee/efx_SOLUTION/edge_vision_soc/efx_evsoc/efx_evsoc-v2.2-wip/Ti180J484_hdmi/ip/dma/dma.v",
-            "/projects/SSE/yhlee/efx_SOLUTION/edge_vision_soc/efx_evsoc/efx_evsoc-v2.2-wip/Ti180J484_hdmi/ip/dma/dma_tmpl.v"
+            "/tmp/tmpm6sei684/ip/dma/dma_tmpl.vhd",
+            "/tmp/tmpm6sei684/ip/dma/dma_define.vh",
+            "/tmp/tmpm6sei684/ip/dma/dma_tmpl.v",
+            "/tmp/tmpm6sei684/ip/dma/dma.v"
         ],
         "external_script_script": [],
         "external_script_reference_design": []
     },
-    "sw_version": "2023.1.150",
-    "generated_date": "2023-09-10T04:41:09.241100"
+    "sw_version": "2023.2.307",
+    "generated_date": "2024-10-08T12:36:36.726439"
 }
